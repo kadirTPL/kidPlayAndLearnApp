@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0EBF5E"
+    tools:context=".wordsplaying">
+
+    <TextView
+        android:id="@+id/wordgamequestion"
+        android:layout_width="281dp"
+        android:layout_height="65dp"
+        android:text="@string/wordsgamequestion"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096" />
+
+    <RadioGroup
+        android:id="@+id/wordgameradiogroup"
+        android:layout_width="339dp"
+        android:layout_height="90dp"
+        android:background="#60C50A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.623">
+
+        <RadioButton
+            android:id="@+id/wordgamebuttona"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="RadioButton"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/wordgamebuttonb"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="RadioButton"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/wordgamebuttonc"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="RadioButton"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/wordgamesubmitbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#011063"
+        android:text="@string/submitbutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.932" />
+
+    <TextView
+        android:id="@+id/wordgameresulttext"
+        android:layout_width="323dp"
+        android:layout_height="104dp"
+        android:text="@string/empty"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.395" />
+
+    <Button
+        android:id="@+id/wordgametryagainbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#011063"
+        android:text="@string/tryagainbutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.846" />
+
+    <TextView
+        android:id="@+id/wordgamescore"
+        android:layout_width="146dp"
+        android:layout_height="66dp"
+        android:text="@string/wordsgamescoretext"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.196" />
+
+    <TextView
+        android:id="@+id/wordgamequestioncounter"
+        android:layout_width="110dp"
+        android:layout_height="41dp"
+        android:text="@string/wordsgameqc"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

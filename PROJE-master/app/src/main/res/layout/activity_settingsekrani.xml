@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#51D3C7"
+    tools:context=".settingsekrani">
+
+    <Button
+        android:id="@+id/settingsloginbutton"
+        android:layout_width="@dimen/setings_button_width"
+        android:layout_height="@dimen/settings_button_height"
+        android:backgroundTint="#095A53"
+        android:drawableLeft="@drawable/loginsettingsbutton"
+        android:text="@string/settingslogin"
+        android:textSize="@dimen/settingslogin_textsize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.172" />
+
+    <Button
+        android:id="@+id/turkishbutton"
+        android:layout_width="@dimen/setings_button_width"
+        android:layout_height="@dimen/settings_button_height"
+        android:backgroundTint="#51D3C7"
+        android:drawableTop="@drawable/settingsturkishbutton"
+        android:text="@string/settingsturkish"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/englishbutton"
+        android:layout_width="@dimen/setings_button_width"
+        android:layout_height="@dimen/settings_button_height"
+        android:backgroundTint="#51D3C7"
+        android:drawableTop="@drawable/settingsenglishbutton"
+        android:text="@string/settingsenglish"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.828" />
+</androidx.constraintlayout.widget.ConstraintLayout>

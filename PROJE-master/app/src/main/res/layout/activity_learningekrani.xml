@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDC241"
+    tools:context=".learningekrani">
+
+    <Button
+        android:onClick="openDirectionsLearn"
+        android:id="@+id/directionslearningbutton"
+        android:layout_width="@dimen/learn_button_width"
+        android:layout_height="@dimen/learn_button_height"
+        android:backgroundTint="#39913D"
+        android:drawableTop="@drawable/directionlearnbutton"
+        android:text="@string/directionsl"
+        android:textColor="#041475"
+        android:textSize="@dimen/learn_button_text_sizeb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.917" />
+
+
+
+    <Button
+        android:onClick="openSeasonsLearn"
+        android:id="@+id/seasonslearningbutton"
+        android:layout_width="@dimen/learn_button_width"
+        android:layout_height="@dimen/learn_button_height"
+        android:backgroundTint="#F35E90"
+        android:drawableTop="@drawable/seasonslearnbutton"
+        android:text="@string/seasonsl"
+        android:textColor="#05E60E"
+        android:textSize="@dimen/learn_button_text_sizeb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32" />
+
+    <Button
+        android:id="@+id/monthlearningbutton"
+        android:layout_width="@dimen/learn_button_width"
+        android:layout_height="@dimen/learn_button_height"
+        android:backgroundTint="#9C1818"
+        android:drawableTop="@drawable/monthlearnbutton"
+        android:text="@string/monthsofyearl"
+        android:textColor="#D67EE4"
+        android:textSize="@dimen/learn_button_text_sizea"
+        android:onClick="openMonthLearn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32" />
+
+    <Button
+        android:id="@+id/wordlearningbutton"
+        android:layout_width="@dimen/learn_button_width"
+        android:layout_height="@dimen/learn_button_height"
+        android:backgroundTint="#6F1280"
+        android:drawableTop="@drawable/wordlearnbutton"
+        android:text="@string/wordsl"
+        android:textColor="#F6DE06"
+        android:textSize="@dimen/learn_button_text_sizeb"
+        android:onClick="openWordsLearn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617" />
+
+    <Button
+        android:onClick="openClockLearn"
+        android:id="@+id/clockslearningbutton"
+        android:layout_width="@dimen/learn_button_width"
+        android:layout_height="@dimen/learn_button_height"
+        android:backgroundTint="#03A9F4"
+        android:drawableTop="@drawable/clocklearnbutton"
+        android:text="@string/clockl"
+        android:textColor="#AF190D"
+        android:textSize="@dimen/learn_button_text_sizeb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617" />
+
+    <Button
+        android:id="@+id/multiplicationlearningbutton"
+        android:layout_width="@dimen/learn_button_width"
+        android:layout_height="@dimen/learn_button_height"
+        android:backgroundTint="#DFAEAE"
+        android:drawableTop="@drawable/multlearnbutton"
+        android:text="@string/multiplicationl"
+        android:textColor="#017706"
+        android:textSize="@dimen/learn_button_text_sizec"
+        android:onClick="openMultLearn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.917" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="201dp"
+        android:layout_height="154dp"
+        android:text="@string/learningparttext"
+        android:textSize="@dimen/learn_title_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <Button
+        android:onClick="openDayLearn"
+        android:id="@+id/weeklearningbutton"
+        android:layout_width="@dimen/learn_button_width"
+        android:layout_height="@dimen/learn_button_height"
+        android:backgroundTint="#D68307"
+        android:drawableTop="@drawable/weeklearnbutton"
+        android:text="@string/daysofweekl"
+        android:textColor="#29E2F3"
+        android:textSize="@dimen/learn_button_text_sizea"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027" />
+</androidx.constraintlayout.widget.ConstraintLayout>

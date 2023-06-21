@@ -1,0 +1,378 @@
+<resources>
+
+    <string name="loginEmail">Email</string>
+    <string name="loginPassword">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="loginSuccess">Login successful</string>
+    <string name="loginFail">Login failed</string>
+    <string name="regSuccess">Registration successful.Please log in</string>
+    <string name="regFail">Registration failed</string>
+    <string name="passwordRule">Password must contain at least 6 characters</string>
+
+
+
+
+
+    <string name="app_name">Owlearn</string>
+    <string name="book_name">LEARNING</string>
+    <string name="console_name">PLAYING</string>
+    <string name="scoreboard_name">SCOREBOARD</string>
+    <string name="settings_name">SETTINGS</string>
+    <string name="clock_appname">WHAT TIME IS IT?</string>
+    <string name="playing_title">TEST YOURSELF!</string>
+
+    <string name="clockGame">CLOCK</string>
+    <string name="seasonGame">SEASONS</string>
+    <string name="dayGame">DAYS OF THE WEEK</string>
+    <string name="monthGame">MONTHS OF THE YEAR</string>
+    <string name="writingGame">SPELLING GAME</string>
+    <string name="numberGame">MEMORY GAME</string>
+    <string name="revNumberGame">MEMORY GAME -2-</string>
+    <string name="ballGame">BALL TRACKING GAME</string>
+    <string name="multiplicationGame">MULTIPLICATION </string>
+    <string name="directionGame">DIRECTIONS</string>
+    <string name="pictureGame">SIMILAR PICTURES</string>
+    <string name="score">SCORE:</string>
+    <string name="scoreboard_title">SCOREBOARD</string>
+    <string name="scoreboardNA">You have not played this game</string>
+
+    <string name="learningparttext">LEARNING PART</string>
+    <string name="daysofweekl">DAYS OF WEEK</string>
+    <string name="monthsofyearl">MONTHS OF YEAR</string>
+    <string name="seasonsl">SEASONS</string>
+    <string name="clockl">CLOCK</string>
+    <string name="wordsl">WORDS</string>
+    <string name="directionsl">DIRECTIONS</string>
+    <string name="multiplicationl">MULTIPLICATION</string>
+
+    <string name="settingslogin">LOG IN</string>
+    <string name="settingsturkish">TR</string>
+    <string name="settingsenglish">EN</string>
+    <string name="forward_button">FORWARD</string>
+    <string name="back_button">BACK</string>
+    <string name="exit_button">EXIT</string>
+
+    <string name="clock_learnTitle">LET US LEARN HOW TO TELL THE TIME</string>
+    <string name="clock_learnText1.0">We have 2 types of clocks nowadays.</string>
+    <string name="clock_learnText1.1">ANALOG</string>
+    <string name="clock_learnText1.2">DIGITAL</string>
+    <string name="clock_learnText1.3">We start with analog clocks:</string>
+    <string name="clock_learnText1.4">Analog clocks have 2 arrows:</string>
+    <string name="clock_learnText1.5">Longer one is called:"Minute-Hand"</string>
+    <string name="clock_learnText1.6">Shorter one is: "Hour-Hand"</string>
+
+    <string name="clock_learnTitle2">HOW CAN WE TELL THE HOUR</string>
+    <string name="clock_learnText2.0">If it is after midnight and before noon we tell the hour just by looking at what number hour-hand points to.</string>
+    <string name="clock_learnText2.01">        It looks like before noon.
+        Hour-hand points to 10.
+        So hour of this clock is 10.</string>
+    <string name="clock_learnText2.1">If it is before midnight and after noon we tell the hour by looking at what number hour-hand points to and add 12 to it.</string>
+    <string name="clock_learnText2.11">        It looks like before midnight.
+        Hour-hand points to 10.
+        So hour of this clock is 10+12=22.</string>
+
+    <string name="clock_learnTitle3">HOW TO TELL THE TIME IN AN ANALOG CLOCK</string>
+    <string name="clock_learnText3">We have 3 different ways to tell the time in an analog clock:</string>
+    <string name="clock_learnText3.a">        When the minute-hand points to 12:
+        We say the hour and add "o'clock" to the end of it. </string>
+    <string name="clock_learnText3.b">        When the minute-hand points to a number between 12 and 6:
+        We multiply that number by 5.
+        Then we say that number and say "past" after it.
+        At last we say the hour and that is it! </string>
+    <string name="clock_learnText3.c">        When the minute-hand points to a number between 6 and 12:
+        We multiply that number by 5.
+        We subtract the number we had after multiplication from 60.
+        After that we say the last number we get and say "to" after it.
+        We add one to the hour.
+        At last we say that number and that is it! </string>
+    <string name="clock_learntText3.d">Quick Tip 1: If the minute hand points 6 instead of "30" we can say "half".</string>
+    <string name="clock_learntText3.e">Quick Tip 2: If the minute hand points 3 or 9 instead of "15" or "45" we can say "quarter".</string>
+    <string name="clock_3_example1">Twenty past two or twenty past fourteen.</string>
+    <string name="clock_3_example2">Three o\'clock"</string>
+    <string name="clock_3_example3">Ten to eight or ten to twenty.</string>
+
+
+    <string name="clock_learnTitle4">HOW TO TELL THE TIME IN A DIGITAL CLOCK</string>
+    <string name="clock_learnText4.0">  In a digital clock it is easier to tell the time.</string>
+    <string name="clock_learnText4.1">  The first part which is before the colon is the hour.</string>
+    <string name="clock_learnText4.2">  The second part which is after the colon is the minute.</string>
+    <string name="clock_learnText4.3">  We first say the hour and then the minute and that is it.</string>
+    <string name="clock_learnText4.4">  Three-forty seven.</string>
+
+    <string name="multlearntitle">WHAT IS MULTIPLICATION?</string>
+    <string name="multlearntext1">Multiplication is a mathematical operation like adding and subtracting. We use the symbol x for this operation.</string>
+    <string name="multlearntext1_2">4 x 3 = 12</string>
+    <string name="multlearnforwardtext">FORWARD</string>
+    <string name="multlearnbacktext">BACK</string>
+    <string name="multlearnprevioustext">PREVIOUS</string>
+    <string name="multlearntext2_1">Let us say you have 3 apples. If you multiply 3 by 4, it means you are adding 3 four times. So it would be like saying 3 + 3 + 3 + 3. If you count all the apples, you would have 12 apples in total.</string>
+    <string name="multlearntext3">x  4</string>
+    <string name="multlearntext4">=</string>
+
+    <string name="clkPdig0407">Four-seven</string>
+    <string name="clkPdig1308">Thirteen-eight</string>
+    <string name="clkPdig2352">Twenty three-fifty two</string>
+
+
+    <string name="clkPeleventhirtyfive">Twenty five to twelve</string>
+    <string name="clkPoneoclock">One o\'clock</string>
+    <string name="clkPsevenfifteen">Fifteen past seven</string>
+    <string name="clkPsevenfortyfive">Fifteen to eight</string>
+    <string name="clkPtwelvethirty">Thirty past twelve</string>
+
+    <string name="clkPquest">What time is it?</string>
+    <string name="clkPwelldone">WELL DONE  :)</string>
+    <string name="clkPcorrect">CORRECT!</string>
+    <string name="clkPwrong">Wrong! The right answer was:</string>
+    <string name="clkPsubmit">Submit</string>
+    <string name="clkPend">END</string>
+    <string name="clkPyour_score">Your score is:</string>
+    <string name="clkPsee_result">See results</string>
+    <string name="clkPreturn_home">Return to games screen</string>
+
+    <string name="multgamequestiontext">%1$d/%2$d</string>
+    <string name="multgamescoretext">Score: %1$d</string>
+    <string name="multgameerrortext">There is no result given.</string>
+    <string name="multgamecorrecttext">Excellent! Your result is correct!</string>
+    <string name="multgamewrongtext">Your result is wrong. The right answer was %1$d</string>
+    <string name="tryagainbutton">Try Agaın</string>
+    <string name="guesshint">Enter your guess</string>
+    <string name="multgamefinalscore">Final Score: %1$d</string>
+    <string name="submitbutton">Submıt</string>
+
+    <string name="JanuaryText">January</string>
+    <string name="FebruaryText">February</string>
+    <string name="MarchText">March</string>
+    <string name="AprilText">April</string>
+    <string name="MayText">May</string>
+    <string name="JuneText">June</string>
+    <string name="JulyText">July</string>
+    <string name="AugustText"> August</string>
+    <string name="SeptemberText">September</string>
+    <string name="OctoberText">October</string>
+    <string name="NovemberText">November</string>
+    <string name="DecemberText">December</string>
+    <string name="januaryinfo">-First month of the year.
+-Second month of the winter.
+-There are 31 days in this month.</string>
+    <string name="februaryinfo">-Second month of the year.
+-Third month of the winter.
+-There are 28 or 29 days in this month.</string>
+    <string name="marchinfo">-Third month of the year.
+-First month of the spring.
+-There are 31 days in this month.</string>
+    <string name="aprilinfo">-Fourth month of the year.
+-Second month of the spring.
+-There are 30 days in this month.</string>
+    <string name="mayinfo">-Fifth month of the year.
+-Third month of the spring.
+-There are 31 days in this month.</string>
+    <string name="juneinfo">-Sixth month of the year.
+-First month of the summer.
+-There are 30 days in this month.</string>
+    <string name="julyinfo">-Seventh month of the year.
+-Second month of the summer.
+-There are 31 days in this month.</string>
+    <string name="augustinfo">-Eighth month of the year.
+-Third month of the summer.
+-There are 31 days in this month.</string>
+    <string name="septemberinfo">-Ninth month of the year.
+-First month of the autumn.
+-There are 30 days in this month.</string>
+    <string name="octoberinfo">-Tenth month of the year.
+-Second month of the autumn.
+-There are 31 days in this month.</string>
+    <string name="novemberinfo">-Eleventh month of the year.
+-Third month of the autumn.
+-There are 30 days in this month.</string>
+    <string name="decemberinfo">-Twelfth month of the year.
+-First month of the winter.
+-There are 31 days in this month.</string>
+    <string name="firstdayoftheWeek">Sunday</string>
+    <string name="seconddayoftheWeek">Monday</string>
+    <string name="thirddayoftheWeek">Tuesday</string>
+    <string name="fourthdayoftheWeek">Wednesday</string>
+    <string name="fifthdayoftheWeek">Thursday</string>
+    <string name="sixthdayoftheWeek">Friday</string>
+    <string name="seventhdayoftheWeek">Saturday</string>
+    <string name="first">1st</string>
+    <string name="second">2nd</string>
+    <string name="third">3rd</string>
+    <string name="fourth">4th</string>
+    <string name="fifth">5th</string>
+    <string name="sixth">6th</string>
+    <string name="seventh">7th</string>
+    <string name="weekDays">Other days are weekdays.</string>
+    <string name="weekEnd">Saturday and Sunday are the "weekend" days.</string>
+    <string name="dayPlaytitle">Please enter the names of the days in order</string>
+    <string name="dayPwelldone">You are right. Well done!</string>
+    <string name="dayPwrong">Your answer was wrong. Right answer was </string>
+    <string name="dayPscore">Your score is:</string>
+
+    <string name="directionsLtitle">DIRECTIONS</string>
+    <string name="directionsLLeft">The car is on the "left" of the man.</string>
+    <string name="directionsLRight">The car is on the "right" of the man.</string>
+    <string name="directionsLFront">The man is in "front" of the car.</string>
+    <string name="directionsLBehind">The man is "behind" the car.</string>
+    <string name="directionsLIn">The man is "in" the car.</string>
+    <string name="directionsLOn">The cat is "on" the table. </string>
+    <string name="directionsLUnder">The cat is "under" the table.</string>
+    <string name="directionsLBetween">The cat is "between" the tables.</string>
+
+    <string name="directionsPquestion1">Where is the man?</string>
+    <string name="directionsPquestion2">Where does the cat sit?</string>
+    <string name="directionsPquestion3">Which side of the man is the car on?</string>
+    <string name="directionsPIn">In the car</string>
+    <string name="directionsPBetween">Between the tables</string>
+    <string name="directionsPLeft">Left side of the man</string>
+    <string name="directionsPRight">Right side of the man</string>
+    <string name="directionsPFront">In front of the car</string>
+    <string name="directionsPBehind">Behind the car</string>
+    <string name="directionsPOn">On the table</string>
+    <string name="directionsPUnder">Under the table</string>
+    <string name="directionsPCorrect">Correct!</string>
+    <string name="directionsPWrong">Unfortunately, your answer was wrong. Correct answer should have been:</string>
+    <string name="directionsPlastmsg">The game has ended. Your score is </string>
+
+    <string name="monthgamequestion">What\'s the %1$s month of the year?</string>
+    <string name="monthgamecorrect">It was correct!</string>
+    <string name="monthgamewrong">It was wrong. The correct answer was %1$s. You gave %2$d correct answers.</string>
+    <string name="monthgameamazing">Amazing! You have counted all months correctly.</string>
+    <string-array name="ordinals">
+        <item>th</item>
+        <item>st</item>
+        <item>nd</item>
+        <item>rd</item>
+    </string-array>
+    <string name="wordslearncorrecttitle">CORRECT</string>
+    <string name="wordslearnwrongtitle">WRONG</string>
+    <string name="wordslearncorrects">Interesting\nKnowledge\nReceive\nNecessary\nSurprise\nTomorrow\nWednesday\nNeighbour\nBusiness\nIgnore\nFebruary\nDefinitely\nSuccessful\nBelieve\nExperience\nEquipment\nHeight\nVehicle\nBeautiful\nRestaurant\nSeparate\nQueue\nIntelligence\nAmateur\nExistence</string>
+    <string name="wordslearnworngs">Intresting\nKnowlege\nRecieve\nNeccessary\nSuprise\nTommorrow\nWensday\nNieghbour\nBusines\nIgnor\nFeburary\nDefinately\nSuccesful\nBeleive\nExperiance\nEquipmant\nHeigth\nVehical\nBeautuful\nRestaraunt\nSeperate\nQue\nIntelligance\nAmatuer\nExistance</string>
+
+    <string name="wordsgamequestion">Which of the following is spelled correctly?</string>
+    <string name="wordsgamecorrectanswer">Nice job! It was correct!</string>
+    <string name="wordsgamewrong">Wrong. The correct answer was %1$s.</string>
+    <string name="wordsgameqc">%1$d/10</string>
+    <string name="wordsgamescoretext">Score: %1$d</string>
+    <string name="wordsgamefinalscoretext">Final Score: %1$d</string>
+    <string name="empty"> </string>
+    <string-array name="wordsgamecorrectsarray">
+        <item>Interesting</item>
+        <item>Knowledge</item>
+        <item>Receive</item>
+        <item>Necessary</item>
+        <item>Surprise</item>
+        <item>Tomorrow</item>
+        <item>Wednesday</item>
+        <item>Neighbour</item>
+        <item>Business</item>
+        <item>Ignore</item>
+        <item>February</item>
+        <item>Definitely</item>
+        <item>Successful</item>
+        <item>Believe</item>
+        <item>Experience</item>
+        <item>Equipment</item>
+        <item>Height</item>
+        <item>Vehicle</item>
+        <item>Beautiful</item>
+        <item>Restaurant</item>
+        <item>Separate</item>
+        <item>Queue</item>
+        <item>Intelligence</item>
+        <item>Amateur</item>
+        <item>Existence</item>
+    </string-array>
+    <string-array name="wordsgamewrongssarray1">
+        <item>Intresting</item>
+        <item>Knowlege</item>
+        <item>Recieve</item>
+        <item>Neccessary</item>
+        <item>Suprise</item>
+        <item>Tommorrow</item>
+        <item>Wensday</item>
+        <item>Nieghbour</item>
+        <item>Busines</item>
+        <item>Ignor</item>
+        <item>Feburary</item>
+        <item>Definately</item>
+        <item>Succesful</item>
+        <item>Beleive</item>
+        <item>Experiance</item>
+        <item>Equipmant</item>
+        <item>Heigth</item>
+        <item>Vehical</item>
+        <item>Beautuful</item>
+        <item>Restarant</item>
+        <item>Seperate</item>
+        <item>Que</item>
+        <item>Intelligance</item>
+        <item>Amatuer</item>
+        <item>Existenca</item>
+    </string-array>
+    <string-array name="wordsgamewrongssarray2">
+        <item>Intaresting</item>
+        <item>Knowlede</item>
+        <item>Recive</item>
+        <item>Necesary</item>
+        <item>Surprsie</item>
+        <item>Tomorow</item>
+        <item>Wendesday</item>
+        <item>Neigbour</item>
+        <item>Bussines</item>
+        <item>Ignora</item>
+        <item>Februrary</item>
+        <item>Definitaly</item>
+        <item>Sucessful</item>
+        <item>Belive</item>
+        <item>Exparience</item>
+        <item>Ekuipment</item>
+        <item>Heihgt</item>
+        <item>Vehicel</item>
+        <item>Beatiful</item>
+        <item>Restauraunt</item>
+        <item>Seprate</item>
+        <item>Qeueu</item>
+        <item>Inteligence</item>
+        <item>Amater</item>
+        <item>Existance</item>
+    </string-array>
+
+    <string name="memorygametitle">Memorize the order of the numbers</string>
+    <string name="memorygamestartbutton">START</string>
+    <string name="memorygamescore">Score: %1$d</string>
+    <string name="memorygamefinalscore">Final Score: %1$d</string>
+    <string name="memorygamecorrect">It was correct!</string>
+    <string name="memorygamewrong">It was wrong!</string>
+    <string name="memorygameanswerhint">%1$s Number</string>
+    <string name="orderlist">%1$d %2$d %3$d %4$d %5$d %6$d %7$d %8$d %9$d %10$d</string>
+    <string name="memorygamenoanswer">There is no answer given.</string>
+    <string name="reversememorytitle">Memorize the order of the numbers revers</string>
+
+
+    <string name="seasonLTitle">SEASONS</string>
+    <string name="seasonLmonthgroup1">-DECEMBER\n-JANUARY\n-FEBRUARY</string>
+    <string name="seasonLmonthgroup2">-MARCH\n-APRIL\n-MAY</string>
+    <string name="seasonLmonthgroup3">-JUNE\n-JULY\n-AUGUST</string>
+    <string name="seasonLmonthgroup4">-SEPTEMBER\n-OCTOBER\n-NOVEMBER</string>
+    <string name="seasonLSummer">SUMMER</string>
+    <string name="seasonLmonthsN">In north:</string>
+    <string name="seasonLmonthsS">In south:</string>
+    <string name="seasonLAutumn">AUTUMN</string>
+    <string name="seasonLWinter">WINTER</string>
+    <string name="seasonLSpring">SPRING</string>
+
+    <string name="seasonPquest">Which season is shown in the image above?</string>
+    <string name="seasonPcorrect">You are right. Well done :)</string>
+    <string name="seasonPwrong">Your answer was wrong. Right answer was </string>
+    <string name="seasonPlastmsg">The game has ended. Your score is: </string>
+
+
+    <string name="similarQuest">Which of the images below looks similar to the one above?</string>
+    <string name="similarCorrect">Corrrect. You are right.</string>
+    <string name="similarWrong">Unfortunately,your answer was wrong.</string>
+    <string name="similarimgdesc">Image</string>
+    <string name="similarScore">Well done. Similar picture finding game has ended. Your score is:</string>
+
+</resources>

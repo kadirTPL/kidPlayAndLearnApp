@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#770F88"
+    tools:context=".monthlearn">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/maylayout"
+        android:layout_width="@dimen/monthlearnlayoutwidth"
+        android:layout_height="@dimen/monthlearnlayoutheight"
+        android:background="#4DC652"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.00"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/mmayiw"
+            android:layout_width="@dimen/monthlearndrawablewidth"
+            android:layout_height="@dimen/monthlearndrawableheight"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.072"
+            app:srcCompat="@drawable/mmay" />
+
+        <TextView
+            android:id="@+id/maytextview"
+            android:layout_width="70dp"
+            android:layout_height="@dimen/monthlearntitleheight"
+            android:text="@string/MayText"
+            android:textSize="26sp"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.411" />
+
+        <TextView
+            android:id="@+id/mayinfotext"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:text="@string/mayinfo"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.816" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/junelayout"
+        android:layout_width="@dimen/monthlearnlayoutwidth"
+        android:layout_height="@dimen/monthlearnlayoutheight"
+        android:background="#9ACD32"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.000">
+
+        <ImageView
+            android:id="@+id/mjuneiw"
+            android:layout_width="@dimen/monthlearndrawablewidth"
+            android:layout_height="@dimen/monthlearndrawableheight"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.072"
+            app:srcCompat="@drawable/mjune" />
+
+        <TextView
+            android:id="@+id/junetextview"
+            android:layout_width="90dp"
+            android:layout_height="@dimen/monthlearntitleheight"
+            android:text="@string/JuneText"
+            android:textSize="26sp"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.411" />
+
+        <TextView
+            android:id="@+id/juneinfotext"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:text="@string/juneinfo"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.816" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/julylayout"
+        android:layout_width="@dimen/monthlearnlayoutwidth"
+        android:layout_height="@dimen/monthlearnlayoutheight"
+        android:background="#FFE402"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/mjulyiw"
+            android:layout_width="@dimen/monthlearndrawablewidth"
+            android:layout_height="@dimen/monthlearndrawableheight"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.072"
+            app:srcCompat="@drawable/mjuly" />
+
+        <TextView
+            android:id="@+id/julytextview"
+            android:layout_width="110dp"
+            android:layout_height="@dimen/monthlearntitleheight"
+            android:text="@string/JulyText"
+            android:textSize="26sp"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.411" />
+
+        <TextView
+            android:id="@+id/julyinfotext"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:text="@string/julyinfo"
+            android:textSize="18.2sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.816" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/augustlayout"
+        android:layout_width="@dimen/monthlearnlayoutwidth"
+        android:layout_height="@dimen/monthlearnlayoutheight"
+        android:background="#BFA20F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/maugustiw"
+            android:layout_width="@dimen/monthlearndrawablewidth"
+            android:layout_height="@dimen/monthlearndrawableheight"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.072"
+            app:srcCompat="@drawable/maugust" />
+
+        <TextView
+            android:id="@+id/augusttextview"
+            android:layout_width="100dp"
+            android:layout_height="@dimen/monthlearntitleheight"
+            android:text="@string/AugustText"
+            android:textSize="26sp"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.411" />
+
+        <TextView
+            android:id="@+id/augustinfotext"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:text="@string/augustinfo"
+            android:textSize="18.2sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.816" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/monthback2"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#000000"
+        android:text="@string/back_button"
+        android:onClick="monthMain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/monthforward2"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#000000"
+        android:text="@string/forward_button"
+        android:textSize="12sp"
+        android:onClick="monthForward"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/monthprevious1"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#000000"
+        android:text="@string/multlearnprevioustext"
+        android:textSize="12sp"
+        android:onClick="monthPrevious"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

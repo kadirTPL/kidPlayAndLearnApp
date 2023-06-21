@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6FBDFB">
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="@dimen/multlearn2buttonwidth"
+        android:layout_height="@dimen/multlearn2buttonheight"
+        android:backgroundTint="#BFAC06"
+        android:onClick="openP"
+        android:text="@string/multlearnprevioustext"
+        android:textSize="@dimen/multlearn2buttontextsize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.874"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.918" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="@dimen/multlearn2buttonwidth"
+        android:layout_height="@dimen/multlearn2buttonheight"
+        android:backgroundTint="#13237C"
+        android:onClick="goToM"
+        android:text="@string/multlearnbacktext"
+        android:textSize="@dimen/multlearn2buttontextsize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.918" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="@dimen/multlearn3applewidth"
+        android:layout_height="@dimen/multlearn3appleheight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.074"
+        app:srcCompat="@drawable/multhreeapple" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="@dimen/multlearningtextwidth_4"
+        android:layout_height="@dimen/multlearningtextheight_4"
+        android:text="@string/multlearntext3"
+        android:textSize="@dimen/multlearningtextsize5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="@dimen/multlearningtextwidth_5"
+        android:layout_height="@dimen/multlearningtextheight_5"
+        android:text="@string/multlearntext4"
+        android:textSize="@dimen/multlearningtextsize6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.252" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="@dimen/multlearn4applewidth"
+        android:layout_height="@dimen/multlearn4appleheight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.441"
+        app:srcCompat="@drawable/multfourapplesicon" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="@dimen/multlearn4applewidth"
+        android:layout_height="@dimen/multlearn4appleheight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.716"
+        app:srcCompat="@drawable/multfourapplesicon" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="@dimen/multlearn4applewidth"
+        android:layout_height="@dimen/multlearn4appleheight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.577"
+        app:srcCompat="@drawable/multfourapplesicon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

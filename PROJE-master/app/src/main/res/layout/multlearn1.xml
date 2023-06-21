@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAF454">
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="@dimen/multlearn3buttonwidth"
+        android:layout_height="@dimen/multlearn3buttonheight"
+        android:backgroundTint="#B85050"
+        android:onClick="openN"
+        android:text="@string/multlearnforwardtext"
+        android:textSize="@dimen/multlearn3buttontextsize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.912" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="@dimen/multlearn3buttonwidth"
+        android:layout_height="@dimen/multlearn3buttonheight"
+        android:backgroundTint="#BFAC06"
+        android:onClick="openP"
+        android:text="@string/multlearnprevioustext"
+        android:textSize="@dimen/multlearn3buttontextsize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.912" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="@dimen/multlearn3buttonwidth"
+        android:layout_height="@dimen/multlearn3buttonheight"
+        android:backgroundTint="#13237C"
+        android:onClick="goToM"
+        android:text="@string/multlearnbacktext"
+        android:textSize="@dimen/multlearn2buttontextsize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.912" />
+
+    <TextView
+        android:id="@+id/multleran2_1text"
+        android:layout_width="327dp"
+        android:layout_height="479dp"
+        android:text="@string/multlearntext2_1"
+        android:textColor="#000000"
+        android:textSize="@dimen/multlearntitletextsize4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.138" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

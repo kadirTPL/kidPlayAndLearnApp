@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#311B92"
+    tools:context=".seasonsLearningActivity">
+
+    <TextView
+        android:id="@+id/seastxt1"
+        android:layout_width="172dp"
+        android:layout_height="25dp"
+        android:background="#64DD17"
+        android:text="@string/seasonLSpring"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/seasimg1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/seasimg1"
+        app:layout_constraintTop_toTopOf="@+id/seasimg4"
+        app:layout_constraintVertical_bias="0" />
+
+    <TextView
+        android:id="@+id/seastxt2"
+        android:layout_width="172dp"
+        android:layout_height="25dp"
+        android:background="#FFEA00"
+        android:text="@string/seasonLSummer"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/seastxt11"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/seastxt10"
+        app:layout_constraintTop_toTopOf="@+id/seasimg1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/seastxt3"
+        android:layout_width="172dp"
+        android:layout_height="25dp"
+        android:background="#502F1E"
+        android:text="@string/seasonLAutumn"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/seastxt15"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/seastxt12"
+        app:layout_constraintTop_toTopOf="@+id/seasimg2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/seastxt4"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="@string/seasonLWinter"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/seastxt19"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/seastxt18"
+        app:layout_constraintTop_toTopOf="@+id/seasimg3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/seasimg1"
+        android:layout_width="172dp"
+        android:layout_height="164dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seasimg4"
+        app:layout_constraintVertical_bias="0.03"
+        app:srcCompat="@drawable/summer" />
+
+    <ImageView
+        android:id="@+id/seasimg2"
+        android:layout_width="172dp"
+        android:layout_height="164dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/seasimg4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seasimg1"
+        app:layout_constraintVertical_bias="0.05"
+        app:srcCompat="@drawable/autumn" />
+
+    <ImageView
+        android:id="@+id/seasimg3"
+        android:layout_width="172dp"
+        android:layout_height="164dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/seasimg1"
+        app:layout_constraintTop_toBottomOf="@+id/seasimg2"
+        app:layout_constraintVertical_bias="0.2"
+        app:srcCompat="@drawable/winter" />
+
+    <ImageView
+        android:id="@+id/seasimg4"
+        android:layout_width="172dp"
+        android:layout_height="164dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09"
+        app:srcCompat="@drawable/spring" />
+
+    <TextView
+        android:id="@+id/seastxt5"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:background="#FFA000"
+        android:text="@string/seasonLTitle"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <TextView
+        android:id="@+id/seastxt6"
+        android:layout_width="86dp"
+        android:layout_height="25dp"
+        android:background="#64DD17"
+        android:text="@string/seasonLmonthsN"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/seasimg1"
+        app:layout_constraintTop_toTopOf="@+id/seastxt7"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/seastxt7"
+        android:layout_width="86dp"
+        android:layout_height="25dp"
+        android:background="#64DD17"
+        android:text="@string/seasonLmonthsS"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/seasimg1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/seastxt9"
+        app:layout_constraintTop_toBottomOf="@+id/seastxt1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/seastxt8"
+        android:layout_width="86dp"
+        android:layout_height="64dp"
+        android:background="#64DD17"
+        android:text="@string/seasonLmonthgroup2"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/seasimg1"
+        app:layout_constraintTop_toBottomOf="@+id/seastxt6"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/seastxt9"
+        android:layout_width="86dp"
+        android:layout_height="64dp"
+        android:background="#64DD17"
+        android:text="@string/seasonLmonthgroup4"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/seasimg1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/seastxt8"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/seastxt10"
+        android:layout_width="86dp"
+        android:layout_height="25dp"
+        android:background="#FFEA00"
+        android:text="@string/seasonLmonthsN"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/seasimg4"
+        app:layout_constraintTop_toBottomOf="@+id/seastxt2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/seastxt11"
+        android:layout_width="86dp"
+        android:layout_height="25dp"
+        android:background="#FFEA00"
+        android:text="@string/seasonLmonthsS"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/seasimg4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/seastxt14"
+        app:layout_constraintTop_toTopOf="@+id/seastxt10"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/seastxt12"
+        android:layout_width="86dp"
+        android:layout_height="25dp"
+        android:background="#502F1E"
+        android:text="@string/seasonLmonthsN"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/seasimg1"
+        app:layout_constraintTop_toTopOf="@+id/seastxt15"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/seastxt13"
+        android:layout_width="86dp"
+        android:layout_height="64dp"
+        android:background="#FFEA00"
+        android:text="@string/seasonLmonthgroup3"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/seastxt10"
+        app:layout_constraintTop_toBottomOf="@+id/seastxt10"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/seastxt14"
+        android:layout_width="86dp"
+        android:layout_height="64dp"
+        android:background="#FFEA00"
+        android:text="@string/seasonLmonthgroup1"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/seasimg2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/seastxt13"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/seastxt15"
+        android:layout_width="86dp"
+        android:layout_height="25dp"
+        android:background="#502F1E"
+        android:text="@string/seasonLmonthsS"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/seasimg1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/seastxt17"
+        app:layout_constraintTop_toBottomOf="@+id/seastxt3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/seastxt16"
+        android:layout_width="86dp"
+        android:layout_height="64dp"
+        android:background="#502F1E"
+        android:text="@string/seasonLmonthgroup4"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/seastxt12"
+        app:layout_constraintTop_toTopOf="@+id/seastxt17"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/seastxt17"
+        android:layout_width="86dp"
+        android:layout_height="64dp"
+        android:background="#502F1E"
+        android:text="@string/seasonLmonthgroup2"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/seasimg3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seastxt15"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/seastxt18"
+        android:layout_width="86dp"
+        android:layout_height="25dp"
+        android:background="#FFFFFF"
+        android:text="@string/seasonLmonthsN"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/seasimg2"
+        app:layout_constraintTop_toBottomOf="@+id/seastxt4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/seastxt19"
+        android:layout_width="86dp"
+        android:layout_height="25dp"
+        android:background="#FFFFFF"
+        android:text="@string/seasonLmonthsS"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/seastxt21"
+        app:layout_constraintTop_toTopOf="@+id/seastxt18"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/seastxt20"
+        android:layout_width="86dp"
+        android:layout_height="64dp"
+        android:background="#FFFFFF"
+        android:text="@string/seasonLmonthgroup1"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/seastxt18"
+        app:layout_constraintTop_toBottomOf="@+id/seastxt18"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/seastxt21"
+        android:layout_width="86dp"
+        android:layout_height="64dp"
+        android:background="#FFFFFF"
+        android:text="@string/seasonLmonthgroup3"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/seasimg2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/seastxt20"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

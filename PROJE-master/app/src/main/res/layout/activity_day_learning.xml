@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFAB00"
+    tools:context=".dayLearningActivity">
+
+    <TextView
+        android:id="@+id/dayLTxt2"
+        android:layout_width="@dimen/dayLtext_widthS"
+        android:layout_height="@dimen/dayLtext_height"
+        android:background="#F4FF81"
+        android:text="@string/firstdayoftheWeek"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="@dimen/dayLtext_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dayLTxt1"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <TextView
+        android:id="@+id/dayLTxt3"
+        android:layout_width="@dimen/dayLtext_widthS"
+        android:layout_height="@dimen/dayLtext_height"
+        android:background="#CCFF90"
+        android:text="@string/seconddayoftheWeek"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="@dimen/dayLtext_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dayLTxt2"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <TextView
+        android:id="@+id/dayLTxt4"
+        android:layout_width="@dimen/dayLtext_widthS"
+        android:layout_height="@dimen/dayLtext_height"
+        android:background="#B9F6CA"
+        android:text="@string/thirddayoftheWeek"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="@dimen/dayLtext_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="@+id/dayLTxt2"
+        app:layout_constraintTop_toBottomOf="@+id/dayLTxt3"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <TextView
+        android:id="@+id/dayLTxt5"
+        android:layout_width="@dimen/dayLtext_widthS"
+        android:layout_height="@dimen/dayLtext_height"
+        android:background="#A7FFEB"
+        android:text="@string/fourthdayoftheWeek"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="@dimen/dayLtext_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="@+id/dayLTxt3"
+        app:layout_constraintTop_toBottomOf="@+id/dayLTxt4"
+        app:layout_constraintVertical_bias="0.14" />
+
+    <TextView
+        android:id="@+id/dayLTxt6"
+        android:layout_width="@dimen/dayLtext_widthS"
+        android:layout_height="@dimen/dayLtext_height"
+        android:background="#84FFFF"
+        android:text="@string/fifthdayoftheWeek"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="@dimen/dayLtext_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="@+id/dayLTxt4"
+        app:layout_constraintTop_toBottomOf="@+id/dayLTxt5"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/dayLTxt7"
+        android:layout_width="@dimen/dayLtext_widthS"
+        android:layout_height="@dimen/dayLtext_height"
+        android:background="#80D8FF"
+        android:text="@string/sixthdayoftheWeek"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="@dimen/dayLtext_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="@+id/dayLTxt5"
+        app:layout_constraintTop_toBottomOf="@+id/dayLTxt6"
+        app:layout_constraintVertical_bias="0.26" />
+
+    <TextView
+        android:id="@+id/dayLTxt8"
+        android:layout_width="@dimen/dayLtext_widthS"
+        android:layout_height="@dimen/dayLtext_height"
+        android:background="#82B1FF"
+        android:text="@string/seventhdayoftheWeek"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="@dimen/dayLtext_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="@+id/dayLTxt6"
+        app:layout_constraintTop_toBottomOf="@+id/dayLTxt7"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <TextView
+        android:id="@+id/dayLTxt0"
+        android:layout_width="@dimen/dayLtext_widthL"
+        android:layout_height="@dimen/dayLtext_height"
+        android:background="#1A237E"
+        android:text="@string/weekEnd"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/dayLtext_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".05" />
+
+    <TextView
+        android:id="@+id/dayLTxt1"
+        android:layout_width="@dimen/dayLtext_widthL"
+        android:layout_height="@dimen/dayLtext_height"
+        android:background="#B2FF59"
+        android:text="@string/weekDays"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="@dimen/dayLtext_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="@+id/dayLTxt0"
+        app:layout_constraintTop_toBottomOf="@+id/dayLTxt0"
+        app:layout_constraintVertical_bias="0.05" />
+</androidx.constraintlayout.widget.ConstraintLayout>

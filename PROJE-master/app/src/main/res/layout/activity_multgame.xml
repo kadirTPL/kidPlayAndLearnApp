@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/multgame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADCFEA"
+    tools:context=".MultGameActivity">
+
+    <TextView
+        android:id="@+id/questionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/multgamemargin3"
+        android:text="@string/multgamequestiontext"
+        android:gravity="center"
+        android:textSize="@dimen/multgametextsize3" />
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/questionText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/multgamemargin3"
+        android:gravity="center"
+        android:text="@string/multgamescoretext"
+        android:textSize="@dimen/multgametextsize2" />
+
+    <TextView
+        android:id="@+id/errorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submitBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/multgamemargin3"
+        android:text=" "
+        android:gravity="center"
+        android:textColor="#FF0000"
+        android:textSize="@dimen/multgametextsize2" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/num2Text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/multgamemargin3"
+        android:text=""
+        android:gravity="center"
+        android:textSize="@dimen/multgametextsize2" />
+
+    <TextView
+        android:id="@+id/num1Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scoreText"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/multgamemargin3"
+        android:textSize="@dimen/multgametextsize3" />
+
+    <TextView
+        android:id="@+id/num2Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/num1Text"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/multgamemargin3"
+        android:textSize="@dimen/multgametextsize3" />
+
+    <EditText
+        android:id="@+id/guessEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/resultText"
+        android:layout_marginStart="@dimen/multgamemargin2"
+        android:layout_marginTop="@dimen/multgamemargin3"
+        android:layout_marginEnd="@dimen/multgamemargin2"
+        android:hint="@string/guesshint"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/guessEdit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/multgamemargin3"
+        android:backgroundTint="#E88F0C"
+        android:text="@string/submitbutton" />
+
+</RelativeLayout>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CE93D8"
+    tools:context=".directionsLearnActivity">
+
+    <TextView
+        android:id="@+id/directLtxt8"
+        android:layout_width="240dp"
+        android:layout_height="24dp"
+        android:background="#1A237E"
+        android:text="@string/directionsLUnder"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/directLtxt6"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/directLtxt7"
+        app:layout_constraintVertical_bias="0.44" />
+
+    <TextView
+        android:id="@+id/directLtxt7"
+        android:layout_width="240dp"
+        android:layout_height="24dp"
+        android:background="#1A237E"
+        android:text="@string/directionsLOn"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/directLtxt5"
+        app:layout_constraintTop_toBottomOf="@+id/directLtxt6"
+        app:layout_constraintVertical_bias="0.28" />
+
+    <TextView
+        android:id="@+id/directLtxt6"
+        android:layout_width="240dp"
+        android:layout_height="24dp"
+        android:background="#1A237E"
+        android:text="@string/directionsLBetween"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/directLtxt4"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/directLtxt5"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <TextView
+        android:id="@+id/directLtxt5"
+        android:layout_width="240dp"
+        android:layout_height="24dp"
+        android:background="#1A237E"
+        android:text="@string/directionsLIn"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="@+id/directLtxt3"
+        app:layout_constraintTop_toBottomOf="@+id/directLtxt4"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <TextView
+        android:id="@+id/directLtxt4"
+        android:layout_width="240dp"
+        android:layout_height="24dp"
+        android:background="#1A237E"
+        android:text="@string/directionsLRight"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/directLtxt2"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/directLtxt3"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <TextView
+        android:id="@+id/directLtxt3"
+        android:layout_width="240dp"
+        android:layout_height="24dp"
+        android:background="#1A237E"
+        android:text="@string/directionsLLeft"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="@+id/directLtxt1"
+        app:layout_constraintTop_toBottomOf="@+id/directLtxt2"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <TextView
+        android:id="@+id/directLtxt2"
+        android:layout_width="240dp"
+        android:layout_height="24dp"
+        android:background="#1A237E"
+        android:text="@string/directionsLBehind"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/directLtxt1"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <TextView
+        android:id="@+id/directLtxt1"
+        android:layout_width="240dp"
+        android:layout_height="24dp"
+        android:background="#1A237E"
+        android:text="@string/directionsLFront"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/directLtitle"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <TextView
+        android:id="@+id/directLtitle"
+        android:layout_width="120dp"
+        android:layout_height="24dp"
+        android:background="#1A237E"
+        android:text="@string/directionsLtitle"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <ImageView
+        android:id="@+id/directLimg1"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toBottomOf="@+id/directLtxt1"
+        app:layout_constraintEnd_toEndOf="@+id/directLtxt2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/directLtxt1"
+        app:layout_constraintTop_toTopOf="@+id/directLtxt1"
+        app:srcCompat="@drawable/in_front_of" />
+
+    <ImageView
+        android:id="@+id/directLimg2"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toBottomOf="@+id/directLtxt2"
+        app:layout_constraintEnd_toStartOf="@+id/directLtxt2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/directLtxt1"
+        app:layout_constraintTop_toTopOf="@+id/directLtxt2"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/behind" />
+
+    <ImageView
+        android:id="@+id/directLimg3"
+        android:layout_width="128dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toBottomOf="@+id/directLtxt3"
+        app:layout_constraintEnd_toEndOf="@+id/directLtxt2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/directLtxt3"
+        app:layout_constraintTop_toTopOf="@+id/directLtxt3"
+        app:srcCompat="@drawable/car_onthe_left" />
+
+    <ImageView
+        android:id="@+id/directLimg4"
+        android:layout_width="128dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toBottomOf="@+id/directLtxt4"
+        app:layout_constraintEnd_toStartOf="@+id/directLtxt4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/directLtxt3"
+        app:layout_constraintTop_toTopOf="@+id/directLtxt4"
+        app:srcCompat="@drawable/car_onthe_right" />
+
+    <ImageView
+        android:id="@+id/directLimg6"
+        android:layout_width="116dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toBottomOf="@+id/directLtxt6"
+        app:layout_constraintEnd_toStartOf="@+id/directLtxt6"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/directLtxt5"
+        app:layout_constraintTop_toTopOf="@+id/directLtxt6"
+        app:srcCompat="@drawable/between" />
+
+    <ImageView
+        android:id="@+id/directLimg7"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toBottomOf="@+id/directLtxt7"
+        app:layout_constraintEnd_toEndOf="@+id/directLtxt6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/directLtxt7"
+        app:layout_constraintTop_toTopOf="@+id/directLtxt7"
+        app:srcCompat="@drawable/on" />
+
+    <ImageView
+        android:id="@+id/directLimg8"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toBottomOf="@+id/directLtxt8"
+        app:layout_constraintEnd_toStartOf="@+id/directLtxt8"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/directLtxt7"
+        app:layout_constraintTop_toTopOf="@+id/directLtxt8"
+        app:srcCompat="@drawable/under" />
+
+    <ImageView
+        android:id="@+id/directLimg5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/directLtxt5"
+        app:layout_constraintEnd_toEndOf="@+id/directLtxt4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/directLtxt5"
+        app:layout_constraintTop_toTopOf="@+id/directLtxt5"
+        app:srcCompat="@drawable/manincar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

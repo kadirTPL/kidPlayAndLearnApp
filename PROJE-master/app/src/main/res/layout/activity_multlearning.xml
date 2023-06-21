@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5A1F1"
+    tools:context=".multlearning">
+
+    <TextView
+        android:id="@+id/multlearntitle"
+        android:layout_width="@dimen/multlearningtitlewidth_1"
+        android:layout_height="@dimen/multlearningtitleheight_1"
+        android:gravity="center"
+        android:text="@string/multlearntitle"
+        android:textSize="@dimen/multlearntitletextsize1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <TextView
+        android:id="@+id/multlearntext1"
+        android:layout_width="@dimen/multlearningtextwidth_1"
+        android:layout_height="@dimen/multlearningtextheight_1"
+        android:text="@string/multlearntext1"
+        android:textSize="@dimen/multlearntitletextsize2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.23" />
+
+    <TextView
+        android:id="@+id/multlearntext1_2"
+        android:layout_width="@dimen/multlearningtextwidth_2"
+        android:layout_height="@dimen/multlearningtextheight_2"
+        android:text="@string/multlearntext1_2"
+        android:textSize="@dimen/multlearntitletextsize3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.752" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="@dimen/multlearn2buttonwidth"
+        android:layout_height="@dimen/multlearn2buttonheight"
+        android:backgroundTint="#B85050"
+        android:onClick="openN"
+        android:text="@string/multlearnforwardtext"
+        android:textSize="@dimen/multlearn2buttontextsize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.915" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="@dimen/multlearn2buttonwidth"
+        android:layout_height="@dimen/multlearn2buttonheight"
+        android:backgroundTint="#13237C"
+        android:onClick="goToM"
+        android:text="@string/multlearnbacktext"
+        android:textSize="@dimen/multlearn2buttontextsize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.915" />
+</androidx.constraintlayout.widget.ConstraintLayout>

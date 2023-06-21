@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C5E1A5"
+    tools:context=".similarPicturesActivity">
+
+    <ImageView
+        android:id="@+id/simQue"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.058"
+        app:srcCompat="@drawable/dogquest" />
+
+    <ImageButton
+        android:id="@+id/simBut1"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:backgroundTint="#F48FB1"
+        android:contentDescription="@string/similarimgdesc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/simQue"
+        app:layout_constraintVertical_bias="0.157"
+        app:srcCompat="@drawable/dogcorrect" />
+
+    <ImageButton
+        android:id="@+id/simBut2"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:backgroundTint="#F48FB1"
+        android:contentDescription="@string/similarimgdesc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/simBut1"
+        app:layout_constraintTop_toBottomOf="@+id/simBut1"
+        app:layout_constraintVertical_bias="0.12"
+        app:srcCompat="@drawable/dogwrong1" />
+
+    <ImageButton
+        android:id="@+id/simBut3"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:background="#F48FB1"
+        android:contentDescription="@string/similarimgdesc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/simBut2"
+        app:layout_constraintTop_toBottomOf="@+id/simBut2"
+        app:layout_constraintVertical_bias="0.25"
+        app:srcCompat="@drawable/dogwrong2" />
+
+    <TextView
+        android:id="@+id/simQueTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/similarQuest"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/simResTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/simBut3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

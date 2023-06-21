@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/spellicon"
+        android:height="@dimen/play_drawable_height"
+        android:width="@dimen/play_drawable_width"
+        >
+    </item>
+</layer-list>

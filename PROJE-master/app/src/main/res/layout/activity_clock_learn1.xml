@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#15BA64"
+    tools:context=".clockLearningActivity">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="@dimen/clockbutton_width"
+        android:layout_height="@dimen/clockbutton_height"
+        android:backgroundTint="#000000"
+        android:onClick="openPreviousPage"
+        android:text="@string/back_button"
+        android:textSize="@dimen/clock1textSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="@dimen/clockbutton_width"
+        android:layout_height="@dimen/clockbutton_height"
+        android:backgroundTint="#000000"
+        android:onClick="goToMainPage"
+        android:text="@string/exit_button"
+        android:textSize="@dimen/clock1textSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="@dimen/clockbutton_width"
+        android:layout_height="@dimen/clockbutton_height"
+        android:backgroundTint="#020502"
+        android:onClick="openNextPage"
+        android:text="@string/forward_button"
+        android:textSize="@dimen/clock1textSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="@dimen/clock2text_widthL"
+        android:layout_height="@dimen/clock2text_heightS"
+        android:background="#00BCD4"
+        android:text="@string/clock_learnText2.1"
+        android:textColor="#000000"
+        android:textSize="@dimen/clock2textSizeS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView18"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="@dimen/clock2title_width"
+        android:layout_height="@dimen/clock2title_height"
+        android:background="#FF5722"
+        android:text="@string/clock_learnTitle2"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="@dimen/clock2textSizeL"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="@dimen/clock2text_widthL"
+        android:layout_height="@dimen/clock2text_heightS"
+        android:background="#FFEB3B"
+        android:text="@string/clock_learnText2.0"
+        android:textColor="#000000"
+        android:textSize="@dimen/clock2textSizeS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView36"
+        app:layout_constraintVertical_bias="0.025"
+        app:srcCompat="@drawable/noon" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView33"
+        app:layout_constraintVertical_bias="0.08"
+        app:srcCompat="@drawable/night" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.03"
+        app:srcCompat="@drawable/analogclock" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/analogclock" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="@dimen/clock2text_widthS"
+        android:layout_height="@dimen/clock2text_heightL"
+        android:background="#F64040"
+        android:text="@string/clock_learnText2.01"
+        android:textColor="#000000"
+        android:textSize="@dimen/clock2textSizeL"
+        app:layout_constraintBottom_toTopOf="@+id/imageView18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="@dimen/clock2text_widthS"
+        android:layout_height="@dimen/clock2text_heightL"
+        android:background="#8D78EC"
+        android:text="@string/clock_learnText2.11"
+        android:textColor="#000000"
+        android:textSize="@dimen/clock2textSizeL"
+        app:layout_constraintBottom_toTopOf="@+id/imageView20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:layout_constraintVertical_bias="0.433" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

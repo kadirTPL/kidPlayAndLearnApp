@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDB518"
+    tools:context=".playingActivity">
+
+    <Button
+        android:onClick="openSimilarPic"
+        android:id="@+id/picGame"
+        android:layout_width="@dimen/play_button_width"
+        android:layout_height="@dimen/play_button_height"
+        android:backgroundTint="#03C1F1"
+        android:drawableEnd="@drawable/similar_button_play"
+        android:text="@string/pictureGame"
+        android:textColor="#350A0A"
+        android:textSize="@dimen/play_button_text_sizeS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/directionGame"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/ballGame"
+        android:layout_width="@dimen/play_button_width"
+        android:layout_height="@dimen/play_button_height"
+        android:backgroundTint="#E72929"
+        android:drawableEnd="@drawable/ball_button_play"
+        android:text="@string/ballGame"
+        android:textSize="@dimen/play_button_text_sizeS"
+        android:onClick="openBallGame"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/multGame"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/multGame"
+        android:layout_width="@dimen/play_button_width"
+        android:layout_height="@dimen/play_button_height"
+        android:backgroundTint="#6200EB"
+        android:drawableTop="@drawable/mult_button_play"
+        android:onClick="openmultgameactivity"
+        android:text="@string/multiplicationGame"
+        android:textSize="@dimen/play_button_text_sizeS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/writingGame"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:onClick="openDirectionsPlay"
+        android:id="@+id/directionGame"
+        android:layout_width="@dimen/play_button_width"
+        android:layout_height="@dimen/play_button_height"
+        android:backgroundTint="#BFEF10"
+        android:drawableTop="@drawable/direct_button_play"
+        android:text="@string/directionGame"
+        android:textColor="#2B0B0B"
+        android:textSize="@dimen/play_button_text_sizeS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/revNumRemGame"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+
+        android:id="@+id/writingGame"
+        android:layout_width="@dimen/play_button_width"
+        android:layout_height="@dimen/play_button_height"
+        android:backgroundTint="#FA420C"
+        android:drawableEnd="@drawable/spell_button_play"
+        android:text="@string/writingGame"
+        android:textSize="@dimen/play_button_text_sizeS"
+        android:onClick="openWordPlay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numRemGame"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/monthGame"
+        android:layout_width="@dimen/play_button_width"
+        android:layout_height="@dimen/play_button_height"
+        android:backgroundTint="#C306F8"
+        android:drawableEnd="@drawable/month_button_play"
+        android:text="@string/monthGame"
+        android:textSize="@dimen/play_button_text_sizeB"
+        android:onClick="openMonthPlay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seasonGame"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:onClick="openDayPlay"
+        android:id="@+id/dayGame"
+        android:layout_width="@dimen/play_button_width"
+        android:layout_height="@dimen/play_button_height"
+        android:backgroundTint="#E92929"
+        android:drawableEnd="@drawable/day_button_play"
+        android:text="@string/dayGame"
+        android:textSize="@dimen/play_button_text_sizeB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clockGame"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:onClick="openClockPlay"
+        android:id="@+id/clockGame"
+        android:layout_width="@dimen/play_button_width"
+        android:layout_height="@dimen/play_button_height"
+        android:backgroundTint="#E91E63"
+        android:drawableEnd="@drawable/clock_button_play"
+        android:text="@string/clockGame"
+        android:textColor="#220606"
+        android:textSize="@dimen/play_button_text_sizeB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleOfPlaying"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <Button
+        android:id="@+id/seasonGame"
+        android:layout_width="@dimen/play_button_width"
+        android:layout_height="@dimen/play_button_height"
+        android:backgroundTint="#0DFA35"
+        android:drawableTop="@drawable/season_button_play"
+        android:onClick="openSeasonsPlay"
+        android:text="@string/seasonGame"
+        android:textColor="#321111"
+        android:textSize="@dimen/play_button_text_sizeB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleOfPlaying"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <Button
+        android:id="@+id/revNumRemGame"
+        android:layout_width="@dimen/play_button_width"
+        android:layout_height="@dimen/play_button_height"
+        android:backgroundTint="#130C4C"
+        android:drawableEnd="@drawable/number_button_play"
+        android:text="@string/revNumberGame"
+        android:textSize="@dimen/play_button_text_sizeB"
+        android:onClick="openrevMemoryPlay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/monthGame"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/numRemGame"
+        android:layout_width="@dimen/play_button_width"
+        android:layout_height="@dimen/play_button_height"
+        android:backgroundTint="#134E14"
+        android:drawableEnd="@drawable/number_button_play"
+        android:text="@string/numberGame"
+        android:textSize="@dimen/play_button_text_sizeB"
+        android:onClick="openMemoryPlay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dayGame"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/titleOfPlaying"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="@string/playing_title"
+        android:textAllCaps="false"
+        android:textColor="#070F3E"
+        android:textSize="@dimen/play_title_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06" />
+</androidx.constraintlayout.widget.ConstraintLayout>

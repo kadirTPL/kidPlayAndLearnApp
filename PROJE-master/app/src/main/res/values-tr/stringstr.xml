@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="loginEmail">Email</string>
+    <string name="loginPassword">Şifre</string>
+    <string name="login">Oturum Aç</string>
+    <string name="register">Kaydol</string>
+    <string name="loginSuccess">Oturum başarılı</string>
+    <string name="loginFail">Oturum başarısız</string>
+    <string name="regSuccess">Başarıyla kaydolundu.Lütfen oturum açın</string>
+    <string name="regFail">Kaydolma başarısız</string>
+
+
+    <string name="passwordRule">Şifre en az 6 karakter içermelidir</string>
+    <string name="app_name">PROJE</string>
+    <string name="book_name">ÖĞRENME</string>
+    <string name="console_name">OYUN</string>
+    <string name="scoreboard_name">SKOR TABLOSU</string>
+    <string name="settings_name">AYARLAR</string>
+
+    <string name="clock_appname">SAAT KAÇ?</string>
+    <string name="playing_title">KENDİNİ DENE!</string>
+    <string name="clockGame">SAAT</string>
+    <string name="seasonGame">MEVSİMLER</string>
+    <string name="dayGame">HAFTANIN GÜNLERİ</string>
+    <string name="monthGame">YILIN AYLARI</string>
+    <string name="writingGame">YAZIM OYUNU</string>
+    <string name="numberGame">HAFIZA OYUNU</string>
+    <string name="revNumberGame">HAFIZA OYUNU -2-</string>
+    <string name="ballGame">TOP TAKİP OYUNU</string>
+    <string name="multiplicationGame">ÇARPIM</string>
+    <string name="directionGame">YÖNLER</string>
+    <string name="pictureGame">BENZER RESİMLER</string>
+    <string name="score">SKOR:</string>
+    <string name="scoreboard_title">SKOR TABLOSU</string>
+
+    <string name="scoreboardNA">Bu oyunu oynamadınız</string>
+    <string name="learningparttext">ÖĞRENME BÖLÜMÜ</string>
+    <string name="daysofweekl">HAFTANIN GÜNLERİ</string>
+    <string name="monthsofyearl">AYLAR</string>
+    <string name="seasonsl">MEVSİMLER</string>
+    <string name="clockl">SAAT</string>
+    <string name="wordsl">KELİMELER</string>
+    <string name="directionsl">YÖNLER</string>
+    <string name="multiplicationl">ÇARPIM</string>
+
+    <string name="settingslogin">GİRİŞ YAP</string>
+    <string name="settingsturkish">TR</string>
+    <string name="settingsenglish">EN</string>
+    <string name="forward_button">İLERİ</string>
+    <string name="back_button">GERİ</string>
+    <string name="exit_button">ÇIKIŞ</string>
+
+    <string name="clock_learnTitle">SAATİN KAÇ OLDUĞUNU ÖĞRENELİM</string>
+    <string name="clock_learnText1.0">Günümüzde 2 tür saat bulunmakta</string>
+    <string name="clock_learnText1.1">ANALOG</string>
+    <string name="clock_learnText1.2">DİJİTAL</string>
+    <string name="clock_learnText1.3">Analog saatlerle başlayalım:</string>
+    <string name="clock_learnText1.4">Analog saatlerin 2 oku vardır:</string>
+    <string name="clock_learnText1.5">Daha uzun olanına "Yelkovan" denir</string>
+    <string name="clock_learnText1.6">Kısa olanı ise "Akrep"tir</string>
+
+    <string name="clock_learnTitle2">SAATİ NASIL ANLATIRIZ</string>
+    <string name="clock_learnText2.0">Eğer gece yarısından sonra ve öğlen öncesi ise, akrebin hangi sayıya işaret ettiğine bakarak saati söyleriz.</string>
+    <string name="clock_learnText2.01"> Öğlen öncesi gibi görünüyor.
+Akrep 10\'u işaret ediyor.
+Burada saat 10.</string>
+    <string name="clock_learnText2.1">Eğer gece yarısından önce ve öğleden sonra ise, akrebin hangi sayıya işaret ettiğine bakarız ve buna 12 ekleriz.</string>
+    <string name="clock_learnText2.11"> Gece yarısından önce gibi görünüyor.
+Akrep 10\'u işaret ediyor.
+Burada saat 10+12=22.</string>
+
+    <string name="clock_learnTitle3">ANALOG SAATTE ZAMAN NASIL ANLATILIR</string>
+    <string name="clock_learnText3">Analog saatte saati anlatmak için 3 farklı yöntemimiz vardır:</string>
+    <string name="clock_learnText3.a"> Yelkovan 12\'yi işaret ettiğinde:
+Saati söyleriz ve bu yeterlidir.</string>
+    <string name="clock_learnText3.b"> Yelkovan 12 ile 6 arasında bir sayıya işaret ettiğinde:
+O sayıyı 5 ile çarparız.
+Saati söyleriz.
+Sonra çarpım sonucunu söyleriz ve ardından "geçe" deriz.</string>
+    <string name="clock_learnText3.c"> Yelkovan 6 ile 12 arasında bir sayıya işaret ettiğinde:
+O sayıyı 5 ile çarparız.
+Çarpım sonucunu 60\'tan çıkarırız.
+Saate bir ekler ve bu sayıyı söyleriz.
+Sonra çıkarma işleminde elde ettiğimiz sayıyı söyleriz ve ardından "var" deriz.
+</string>
+    <string name="clock_learntText3.d">Hızlı İpucu 1: Eğer yelkovan 6\'ya işaret ediyorsa,"30" yerine "buçuk" diyebiliriz.</string>
+    <string name="clock_learntText3.e">Hızlı İpucu 2: Eğer yelkovan 3 veya 9\'a işaret ediyorsa,"15" veya "45" yerine "çeyrek" diyebiliriz.</string>
+    <string name="clock_3_example1">İkiyi yirmi geçe veya on dörtü yirmi geçe.</string>
+    <string name="clock_3_example2">Üç</string>
+    <string name="clock_3_example3">Sekize on var veya yirmiye on var.</string>
+
+
+    <string name="clock_learnTitle4">DİJİTAL SAATTE ZAMAN NASIL ANLATILIR</string>
+    <string name="clock_learnText4.0">Dijital saatte zamanı anlatmak daha kolaydır.</string>
+    <string name="clock_learnText4.1">İlk bölüm, yani iki noktadan önce gelen kısım saati gösterir.</string>
+    <string name="clock_learnText4.2">İkinci bölüm, yani iki noktadan sonraki kısım dakikayı gösterir.</string>
+    <string name="clock_learnText4.3">Önce saati söyleriz, ardından dakikayı söyleriz ve işte bu kadar.</string>
+    <string name="clock_learnText4.4">Üç kırk yedi.</string>
+
+    <string name="multlearntitle">ÇARPMA NEDİR?</string>
+    <string name="multlearntext1">Çarpma, toplama ve çıkarma gibi bir matematiksel işlemdir. Bu işlem için x sembolünü kullanırız.</string>
+    <string name="multlearntext1_2">4 x 3 = 12</string>
+    <string name="multlearnforwardtext">İLERİ</string>
+    <string name="multlearnbacktext">ÇIK</string>
+    <string name="multlearnprevioustext">ÖNCEKİ</string>
+    <string name="multlearntext2_1">Diyelim ki 3 elmanız var. Eğer 3\'ü 4 ile çarparsanız, bu 3\'ü dört kez eklemek anlamına gelir. Yani 3 + 3 + 3 + 3 demek gibi olur. Tüm elmaları sayarsanız, toplamda 12 elma olur.</string>
+    <string name="multlearntext3">x 4</string>
+    <string name="multlearntext4">=</string>
+
+
+    <string name="clkPdig0407">Dört-yedi</string>
+    <string name="clkPdig1308">On üç-sekiz</string>
+    <string name="clkPdig2352">Yirmi üç-elli iki</string>
+
+    <string name="clkPeleventhirtyfive">On ikiye yirmi beş var</string>
+    <string name="clkPoneoclock">Bir</string>
+    <string name="clkPsevenfifteen">Yediyi çeyrek geçe</string>
+    <string name="clkPsevenfortyfive">Sekize on beş var</string>
+    <string name="clkPtwelvethirty">On ikiyi otuz geçe</string>
+
+    <string name="clkPquest">Saat kaç?</string>
+    <string name="clkPwelldone">TEBRİKLER :)</string>
+    <string name="clkPcorrect">DOĞRU!</string>
+    <string name="clkPwrong">Yanlış! Doğru cevap şuydu:</string>
+    <string name="clkPsubmit">Gönder</string>
+    <string name="clkPend">SON</string>
+    <string name="clkPyour_score">Puanınız:</string>
+    <string name="clkPsee_result">Sonuçları gör</string>
+    <string name="clkPreturn_home">Oyun ekranına dön</string>
+
+
+    <string name="multgamequestiontext">%1$d/%2$d</string>
+    <string name="multgamescoretext">Puan: %1$d</string>
+    <string name="multgameerrortext">Cevap girilmedi.</string>
+    <string name="multgamecorrecttext">Harika! Cevabın doğru!</string>
+    <string name="multgamewrongtext">Cevabın yanlış. Doğru cevap %1$d idi.</string>
+    <string name="tryagainbutton">Tekrar dene</string>
+    <string name="guesshint">Cevabınızı girin</string>
+    <string name="multgamefinalscore">Final Puanı: %1$d</string>
+    <string name="submitbutton">Gönder</string>
+
+    <string name="JanuaryText">Ocak</string>
+    <string name="FebruaryText">Şubat</string>
+    <string name="MarchText">Mart</string>
+    <string name="AprilText">Nisan</string>
+    <string name="MayText">Mayıs</string>
+    <string name="JuneText">Haziran</string>
+    <string name="JulyText">Temmuz</string>
+    <string name="AugustText">Ağustos</string>
+    <string name="SeptemberText">Eylül</string>
+    <string name="OctoberText">Ekim</string>
+    <string name="NovemberText">Kasım</string>
+    <string name="DecemberText">Aralık</string>
+
+    <string name="januaryinfo">-Yılın ilk ayıdır.
+-Kışın ikinci ayı.
+-Bu ayda 31 gün bulunur.</string>
+    <string name="februaryinfo">- Yılın ikinci ayıdır.
+-Kışın üçüncü ayı.
+-Bu ayda 28 veya 29 gün bulunur.</string>
+    <string name="marchinfo">- Yılın üçüncü ayıdır.
+-İlkbaharın ilk ayı.
+-Bu ayda 31 gün bulunur.</string>
+    <string name="aprilinfo">- Yılın dördüncü ayıdır.
+-İlkbaharın ikinci ayı.
+-Bu ayda 30 gün bulunur.</string>
+    <string name="mayinfo">- Yılın beşinci ayıdır.
+-İlkbaharın üçüncü ayı.
+-Bu ayda 31 gün bulunur.</string>
+    <string name="juneinfo">- Yılın altıncı ayıdır.
+-Yazın ilk ayı.
+-Bu ayda 30 gün bulunur.</string>
+    <string name="julyinfo">- Yılın yedinci ayıdır.
+-Yazın ikinci ayı.
+-Bu ayda 31 gün bulunur.</string>
+    <string name="augustinfo">- Yılın sekizinci ayıdır.
+-Yazın üçüncü ayı.
+-Bu ayda 31 gün bulunur.</string>
+    <string name="septemberinfo">- Yılın dokuzuncu ayıdır.
+-Sonbaharın ilk ayı.
+-Bu ayda 30 gün bulunur.</string>
+    <string name="octoberinfo">- Yılın onuncu ayıdır.
+-Sonbaharın ikinci ayı.
+-Bu ayda 31 gün bulunur.</string>
+    <string name="novemberinfo">- Yılın on birinci ayıdır.
+-Sonbaharın üçüncü ayı.
+-Bu ayda 30 gün bulunur.</string>
+    <string name="decemberinfo">- Yılın on ikinci ayıdır.
+-Kışın ilk ayı.
+-Bu ayda 31 gün bulunur.</string>
+
+
+    <string name="firstdayoftheWeek">Pazartesi</string>
+    <string name="seconddayoftheWeek">Salı</string>
+    <string name="thirddayoftheWeek">Çarşamba</string>
+    <string name="fourthdayoftheWeek">Perşembe</string>
+    <string name="fifthdayoftheWeek">Cuma</string>
+    <string name="sixthdayoftheWeek">Cumartesi</string>
+    <string name="seventhdayoftheWeek">Pazar</string>
+    <string name="first">1.</string>
+    <string name="second">2.</string>
+    <string name="third">3.</string>
+    <string name="fourth">4.</string>
+    <string name="fifth">5.</string>
+    <string name="sixth">6.</string>
+    <string name="seventh">7.</string>
+    <string name="weekDays">Diğer günler hafta içi günleridir.</string>
+    <string name="weekEnd">Cumartesi ve Pazar "hafta sonu" günleridir.</string>
+    <string name="dayPlaytitle">Lütfen günleri sırayla yazın</string>
+    <string name="dayPwelldone">Doğru cevap. Tebrikler!</string>
+    <string name="dayPwrong">Cevabınız yanlış. Doğru cevap şuydu: </string>
+    <string name="dayPscore">Puanınız:</string>
+
+    <string name="directionsLtitle">YÖNLER</string>
+    <string name="directionsLLeft">Araba adamın "solunda".</string>
+    <string name="directionsLRight">Araba adamın "sağında".</string>
+    <string name="directionsLFront">Adam arabanın "önünde".</string>
+    <string name="directionsLBehind">Adam arabanın "arkasında".</string>
+    <string name="directionsLIn">Adam arabanın "içinde".</string>
+    <string name="directionsLOn">Kedi masanın "üstünde".</string>
+    <string name="directionsLUnder">Kedi masanın "altında".</string>
+    <string name="directionsLBetween">Kedi masaların "arasında".</string>
+
+
+    <string name="directionsPquestion1">Adam nerede?</string>
+    <string name="directionsPquestion2">Kedi nerede oturuyor?</string>
+    <string name="directionsPquestion3">Araba adamın hangi tarafında?</string>
+    <string name="directionsPIn">Arabada</string>
+    <string name="directionsPBetween">Masaların arasında</string>
+    <string name="directionsPLeft">Adamın sol tarafında</string>
+    <string name="directionsPRight">Adamın sağ tarafında</string>
+    <string name="directionsPFront">Arabanın önünde</string>
+    <string name="directionsPBehind">Arabanın arkasında</string>
+    <string name="directionsPOn">Masanın üstünde</string>
+    <string name="directionsPUnder">Masanın altında</string>
+    <string name="directionsPCorrect">Doğru!</string>
+    <string name="directionsPWrong">Maalesef, yanlış cevap verdiniz. Doğru cevap şu olmalıydı:</string>
+    <string name="directionsPlastmsg">Oyun sona erdi. Skorunuz:</string>
+
+    <string name="monthgamequestion">Yılın %1$s ayı hangisidir?</string>
+    <string name="monthgamecorrect">Doğru cevap!</string>
+    <string name="monthgamewrong">Yanlış cevap verdin. Doğru cevap %1$s idi. %2$d doğru cevap verdin.</string>
+    <string name="monthgameamazing">Harika! Tüm ayları doğru şekilde saydın.</string>
+    <string-array name="ordinals">
+        <item>.</item>
+        <item>.</item>
+        <item>.</item>
+        <item>.</item>
+    </string-array>
+
+    <string name="wordslearncorrecttitle">DOĞRU</string>
+    <string name="wordslearnwrongtitle">YANLIŞ</string>
+    <string name="wordslearncorrects">Yanlış\nMahsül\nHerkes\nÖrtbas\nRastgele\nKampanya\nDeğinmek\nGardırop\nZafiyet\nFilm\nKrem\nMeyve\nEğitim\nİtfaiye\nEşek\nGazete\nKirpik\nSpor\nYalnız\nEkşi\nEğer\nÇünkü\nKibrit\nBeyefendi\nKurdele</string>
+    <string name="wordslearnworngs">Yalnış\nMahsul\nHerkez\nÖrtpas\nRasgele\nKanpanya\nDeyinmek\nGardrop\nZaafiyet\nFilim\nKırem\nMeyva\nEyitim\nİtfaye\nEşşek\nGaste\nKiprik\nSipor\nYanlız\nEşki\nEyer\nÇünki\nKirbit\nBeyfendi\nKurdela</string>
+
+
+    <string name="wordsgamequestion">Aşağıdakilerden hangisi doğru yazılmıştır?</string>
+    <string name="wordsgamecorrectanswer">Harika iş! Doğru cevap!</string>
+    <string name="wordsgamewrong">Yanlış. Doğru cevap %1$s idi.</string>
+    <string name="wordsgameqc">%1$d/10</string>
+    <string name="wordsgamescoretext">Puan: %1$d</string>
+    <string name="wordsgamefinalscoretext">Final Puanı: %1$d</string>
+    <string name="empty"> </string>
+
+    <string-array name="wordsgamecorrectsarray">
+       <item>Yanlış</item><item>Mahsül</item><item>Herkes</item><item>Örtbas</item><item>Rastgele</item><item>Kampanya</item><item>Değinmek</item><item>Gardırop</item><item>Zafiyet</item><item>Film</item><item>Krem</item><item>Meyve</item><item>Eğitim</item><item>İtfaiye</item><item>Eşek</item><item>Gazete</item><item>Kirpik</item><item>Spor</item><item>Yalnız</item><item>Ekşi</item><item>Eğer\</item><item>Çünkü</item><item>Kibrit</item><item>Beyefendi</item><item>Kurdele</item>
+    </string-array>
+    <string-array name="wordsgamewrongssarray1">
+        <item>Yalnış</item><item>Mahsul</item><item>Herkez</item><item>Örtpas</item><item>Rasgele</item><item>Kanpanya</item><item>Deyinmek</item><item>Gardrop</item><item>Zaafiyet</item><item>Filim</item><item>Kırem</item><item>Meyva</item><item>Eyitim</item><item>İtfaye</item><item>Eşşek</item><item>Gaste</item><item>Kipri</item><item>Sipor</item><item>Yanlız</item><item>Eşki</item><item>Eyer</item><item>Çünki</item><item>Kirbit</item><item>Beyfendi</item><item>Kurdela</item>
+    </string-array>
+    <string-array name="wordsgamewrongssarray2">
+        <item>Yanış</item><item>Mahsüül</item><item>Hekres</item><item>Örtbaz</item><item>Ratsgele</item><item>Kambanya</item><item>Deyğinmek</item><item>Gardurop</item><item>Zafiyat</item><item>Flim</item><item>Kram</item><item>Mevye</item><item>Eğiyim</item><item>İtfiaye</item><item>Eşak</item><item>Gazette</item><item>Kiprik</item><item>Sıpor</item><item>Yanız</item><item>Eşşki</item><item>Eger</item><item>Cünkü</item><item>Kibrıt</item><item>Beefendi</item><item>Kurdale</item>
+    </string-array>
+
+    <string name="memorygametitle">Sayıların Sırasını Ezberle</string>
+    <string name="memorygamestartbutton">BAŞLA</string>
+    <string name="memorygamescore">Puan: %1$d</string>
+    <string name="memorygamefinalscore">Son Puan: %1$d</string>
+    <string name="memorygamecorrect">Doğru!</string>
+    <string name="memorygamewrong">Yanlış!</string>
+    <string name="memorygameanswerhint">%1$s Sayı</string>
+    <string name="orderlist">%1$d %2$d %3$d %4$d %5$d %6$d %7$d %8$d %9$d %10$d</string>
+    <string name="memorygamenoanswer">Cevap verilmedi.</string>
+    <string name="reversememorytitle">Sayıların Sırasını Tersinden Ezberle</string>
+
+    <string name="seasonLTitle">MEVSİMLER</string>
+    <string name="seasonLmonthgroup1">-ARALIK\n-OCAK\n-ŞUBAT</string>
+    <string name="seasonLmonthgroup2">-MART\n-NİSAN\n-MAYIS</string>
+    <string name="seasonLmonthgroup3">-HAZİRAN\n-TEMMUZ\n-AĞUSTOS</string>
+    <string name="seasonLmonthgroup4">-EYLÜL\n-EKİM\n-KASIM</string>
+    <string name="seasonLSummer">YAZ</string>
+    <string name="seasonLmonthsN">Kuzeyde:</string>
+    <string name="seasonLmonthsS">Güneyde:</string>
+    <string name="seasonLAutumn">SONBAHAR</string>
+    <string name="seasonLWinter">KIŞ</string>
+    <string name="seasonLSpring">İLKBAHAR</string>
+
+    <string name="seasonPquest">Yukarıda hangi mevsim gösterilmektedir?</string>
+    <string name="seasonPcorrect">Tebrikler, doğru cevap! :)</string>
+    <string name="seasonPwrong">Cevabınız yanlış. Doğru cevap şuydu: </string>
+    <string name="seasonPlastmsg">Oyun sona erdi. Puanınız: </string>
+
+    <string name="similarQuest">Aşağıdaki resimlerden hangisi yukarıdakine benziyor?</string>
+    <string name="similarCorrect">Cevabınız doğru.</string>
+    <string name="similarWrong">Maalesef, cevabınız yanlış.</string>
+    <string name="similarimgdesc">Resim</string>
+    <string name="similarScore">Harika! Benzer resim bulma oyunu sona erdi. Puanınız: </string>
+
+</resources>

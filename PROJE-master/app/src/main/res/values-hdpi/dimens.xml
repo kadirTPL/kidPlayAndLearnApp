@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_drawable_height">128dp</dimen>
+    <dimen name="main_drawable_width">128dp</dimen>
+    <dimen name="main_button_height">220dp</dimen>
+    <dimen name="main_button_width">150dp</dimen>
+    <dimen name="main_button_textSizeS">15sp</dimen>
+    <dimen name="main_button_textSizeL">20sp</dimen>
+
+    <dimen name="play_button_height">76dp</dimen>
+    <dimen name="play_button_width">140dp</dimen>
+    <dimen name="play_button_text_sizeB">12sp</dimen>
+    <dimen name="play_button_text_sizeS">10sp</dimen>
+    <dimen name="play_title_size">20sp</dimen>
+    <dimen name="play_drawable_height">36dp</dimen>
+    <dimen name="play_drawable_width">36dp</dimen>
+
+    <dimen name="learn_button_height">120dp</dimen>
+    <dimen name="learn_button_width">142dp</dimen>
+    <dimen name="learn_drawable_height">60dp</dimen>
+    <dimen name="learn_drawable_width">60dp</dimen>
+    <dimen name="learn_title_text">30sp</dimen>
+    <dimen name="learn_button_text_sizea">14sp</dimen>
+    <dimen name="learn_button_text_sizeb">15sp</dimen>
+    <dimen name="learn_button_text_sizec">11.5sp</dimen>
+
+    <dimen name="settings_button_height">125dp</dimen>
+    <dimen name="setings_button_width">180dp</dimen>
+    <dimen name="settingsflag_drawable_height">125dp</dimen>
+    <dimen name="settingsflag_drawable_width">180dp</dimen>
+    <dimen name="settingslogin_drawable_height">64dp</dimen>
+    <dimen name="settingslogin_drawable_width">64dp</dimen>
+    <dimen name="settingslogin_textsize">16sp</dimen>
+
+
+    <dimen name="scoreboard_drawable_height">38dp</dimen>
+    <dimen name="scoreboard_drawable_width">72dp</dimen>
+    <dimen name="scoreboard_text_size">12sp</dimen>
+    <dimen name="scoreboard_text_widthB">130sp</dimen>
+    <dimen name="scoreboard_text_widthS">42sp</dimen>
+    <dimen name="scoreboard_text_height">18sp</dimen>
+
+
+    <dimen name="clockbutton_height">50dp</dimen>
+    <dimen name="clockbutton_width">90dp</dimen>
+
+    <dimen name="clock1drawable_height">64dp</dimen>
+    <dimen name="clock1drawable_width">64dp</dimen>
+    <dimen name="clock1text_height">16dp</dimen>
+    <dimen name="clock1text_width">300dp</dimen>
+    <dimen name="clock1Stext_width">60dp</dimen>
+    <dimen name="clock1textSize">10sp</dimen>
+
+    <dimen name="clock2drawable_height">84dp</dimen>
+    <dimen name="clock2drawable_width">84dp</dimen>
+    <dimen name="clock2title_height">20dp</dimen>
+    <dimen name="clock2title_width">260dp</dimen>
+    <dimen name="clock2text_heightL">60dp</dimen>
+    <dimen name="clock2text_heightS">40dp</dimen>
+    <dimen name="clock2text_widthL">310dp</dimen>
+    <dimen name="clock2text_widthS">200dp</dimen>
+    <dimen name="clock2textSizeL">12sp</dimen>
+    <dimen name="clock2textSizeS">12sp</dimen>
+
+    <dimen name="clock3drawable_height">68dp</dimen>
+    <dimen name="clock3drawable_width">72dp</dimen>
+    <dimen name="clock3text_height1">18dp</dimen>
+    <dimen name="clock3text_height2">25dp</dimen>
+    <dimen name="clock3text_height3">50dp</dimen>
+    <dimen name="clock3text_height4">70dp</dimen>
+    <dimen name="clock3text_width1">310dp</dimen>
+    <dimen name="clock3text_width2">270dp</dimen>
+    <dimen name="clock3text_width3">200dp</dimen>
+    <dimen name="clock3textSize">10sp</dimen>
+
+    <dimen name="clock4drawable_height">80dp</dimen>
+    <dimen name="clock4drawable_width">100dp</dimen>
+    <dimen name="clock4textSize">11sp</dimen>
+    <dimen name="clock4text_height">16dp</dimen>
+    <dimen name="clock4text_width">310dp</dimen>
+
+    <dimen name="multlearningtextheight_1">260dp</dimen>
+    <dimen name="multlearningtextwidth_1">280dp</dimen>
+    <dimen name="multlearningtitleheight_1">40dp</dimen>
+    <dimen name="multlearningtitlewidth_1">220dp</dimen>
+    <dimen name="multlearntitletextsize1">21sp</dimen>
+    <dimen name="multlearntitletextsize2">31sp</dimen>
+    <dimen name="multlearningtextheight_2">70dp</dimen>
+    <dimen name="multlearningtextwidth_2">130dp</dimen>
+    <dimen name="multlearntitletextsize3">30sp</dimen>
+    <dimen name="multlearningtextheight_3">400dp</dimen>
+    <dimen name="multlearningtextwidth_3">300dp</dimen>
+    <dimen name="multlearntitletextsize4">30.5sp</dimen>
+    <dimen name="multlearn2buttonheight">60dp</dimen>
+    <dimen name="multlearn2buttonwidth">110dp</dimen>
+    <dimen name="multlearn3buttonheight">40dp</dimen>
+    <dimen name="multlearn3buttonwidth">90dp</dimen>
+    <dimen name="multlearn2buttontextsize">14sp</dimen>
+    <dimen name="multlearn3buttontextsize">10sp</dimen>
+    <dimen name="multlearn3appleheight">87dp</dimen>
+    <dimen name="multlearn3applewidth">159dp</dimen>
+    <dimen name="multlearn4appleheight">60dp</dimen>
+    <dimen name="multlearn4applewidth">180dp</dimen>
+    <dimen name="multlearningtextheight_4">66dp</dimen>
+    <dimen name="multlearningtextwidth_4">94dp</dimen>
+    <dimen name="multlearningtextsize5">40sp</dimen>
+    <dimen name="multlearningtextheight_5">55dp</dimen>
+    <dimen name="multlearningtextwidth_5">40dp</dimen>
+    <dimen name="multlearningtextsize6">50sp</dimen>
+    <dimen name="multgamemargin1">12dp</dimen>
+    <dimen name="multgamemargin2">24dp</dimen>
+    <dimen name="multgamemargin3">28dp</dimen>
+    <dimen name="multgametextsize1">16sp</dimen>
+    <dimen name="multgametextsize2">20sp</dimen>
+    <dimen name="multgametextsize3">24sp</dimen>
+
+
+    <dimen name="clkPLdrawable_height">126dp</dimen>
+    <dimen name="clkPLdrawable_width">126dp</dimen>
+    <dimen name="clkPLbutton_height">48dp</dimen>
+    <dimen name="clkPLbutton_width">156dp</dimen>
+    <dimen name="clkPLradioG_height">144dp</dimen>
+    <dimen name="clkPLradioG_width">216dp</dimen>
+    <dimen name="clkPLradioB_height">48dp</dimen>
+    <dimen name="clkPLtext_height">26dp</dimen>
+    <dimen name="clkPLtext_width">216dp</dimen>
+    <dimen name="clkPLLargeText_height">40dp</dimen>
+    <dimen name="clkPLLtext_size">14sp</dimen>
+    <dimen name="clkPLStext_size">10sp</dimen>
+
+    <dimen name="dayLtext_height">30dp</dimen>
+    <dimen name="dayLtext_widthL">320dp</dimen>
+    <dimen name="dayLtext_widthS">100dp</dimen>
+    <dimen name="dayLtext_size">14sp</dimen>
+
+    <dimen name="dayptext_height">48dp</dimen>
+    <dimen name="dayptext_width">300dp</dimen>
+    <dimen name="dayptext_size">16sp</dimen>
+    <dimen name="daypButton_height">48dp</dimen>
+    <dimen name="daypButton_width">140dp</dimen>
+
+
+</resources>

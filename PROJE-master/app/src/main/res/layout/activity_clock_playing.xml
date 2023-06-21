@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF176"
+    tools:context=".clockPlayingActivity">
+
+    <TextView
+        android:id="@+id/lastmsg2"
+        android:layout_width="@dimen/clkPLtext_width"
+        android:layout_height="@dimen/clkPLLargeText_height"
+        android:background="#64FFDA"
+        android:text="@string/clkPwelldone"
+        android:textAlignment="center"
+        android:textColor="#DD2C00"
+        android:textSize="@dimen/clkPLLtext_size"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.206" />
+
+    <TextView
+        android:id="@+id/resultxt1"
+        android:layout_width="@dimen/clkPLtext_width"
+        android:layout_height="@dimen/clkPLtext_height"
+        android:textAlignment="center"
+        android:textSize="@dimen/clkPLStext_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <TextView
+        android:id="@+id/resultxt2"
+        android:layout_width="@dimen/clkPLtext_width"
+        android:layout_height="@dimen/clkPLtext_height"
+        android:textAlignment="center"
+        android:textSize="@dimen/clkPLStext_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultxt1"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <ImageView
+        android:id="@+id/clkImg"
+        android:layout_width="@dimen/clkPLdrawable_width"
+        android:layout_height="@dimen/clkPLdrawable_height"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultxt2"
+        app:layout_constraintVertical_bias="0.04"
+        tools:srcCompat="@drawable/eleven_thirtyfive" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="@dimen/clkPLradioG_width"
+        android:layout_height="@dimen/clkPLradioG_height"
+        android:background="#00BFA5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clkImg"
+        app:layout_constraintVertical_bias="0.24000001">
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/clkPLradioB_height"
+            android:buttonTint="#5C0A00"
+            android:text="@string/clkPeleventhirtyfive"
+            android:textColor="#5C0A00"
+            android:textSize="@dimen/clkPLStext_size" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/clkPLradioB_height"
+            android:buttonTint="#5C0A00"
+            android:text="@string/clkPoneoclock"
+            android:textColor="#5C0A00"
+            android:textSize="@dimen/clkPLStext_size" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/clkPLradioB_height"
+            android:buttonTint="#5C0A00"
+            android:text="@string/clkPsevenfifteen"
+            android:textColor="#5C0A00"
+            android:textSize="@dimen/clkPLStext_size" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="@dimen/clkPLbutton_width"
+        android:layout_height="@dimen/clkPLbutton_height"
+        android:backgroundTint="#AEEA00"
+        android:text="@string/clkPsubmit"
+        android:textColor="#6200EA"
+        android:textSize="@dimen/clkPLStext_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        app:layout_constraintVertical_bias="0.32" />
+
+    <TextView
+        android:id="@+id/lastmsg"
+        android:layout_width="@dimen/clkPLtext_width"
+        android:layout_height="@dimen/clkPLLargeText_height"
+        android:background="#64FFDA"
+        android:text="@string/clkPquest"
+        android:textAlignment="center"
+        android:textColor="#DD2C00"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clkImg" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

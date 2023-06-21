@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:drawable="@drawable/night_img"
+    android:height="@dimen/clock2drawable_height"
+    android:width="@dimen/clock2drawable_width"></item>
+</layer-list>

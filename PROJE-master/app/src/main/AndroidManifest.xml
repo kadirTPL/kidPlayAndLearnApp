@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PROJE"
+        tools:targetApi="31">
+        <activity
+            android:name=".loginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ballgame"
+            android:exported="false" />
+        <activity
+            android:name=".similarPicturesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".reversememorygame"
+            android:exported="false" />
+        <activity
+            android:name=".memorygame"
+            android:exported="false" />
+        <activity
+            android:name=".seasonsPlayingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".seasonsLearningActivity"
+            android:exported="false" />
+        <activity
+            android:name=".dayLearningActivity"
+            android:exported="false" />
+        <activity
+            android:name=".wordsplaying"
+            android:exported="false" />
+        <activity
+            android:name=".directionsPlayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".directionsLearnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".dayPlayingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".monthlearn"
+            android:exported="false" />
+        <activity
+            android:name=".clockPlayingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".multlearning"
+            android:exported="false" />
+        <activity
+            android:name=".ScoreboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".monthgame"
+            android:label="Month Game" />
+        <activity android:name=".wordlearning" />
+        <activity android:name=".learningekrani" />
+        <activity android:name=".playingActivity" />
+        <activity android:name=".settingsekrani" />
+        <activity android:name=".clockLearningActivity" />
+        <activity android:name=".MultGameActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

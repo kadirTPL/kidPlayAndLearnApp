@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#770F88"
+    tools:context=".monthlearn">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/septemberlayout"
+        android:layout_width="@dimen/monthlearnlayoutwidth"
+        android:layout_height="@dimen/monthlearnlayoutheight"
+        android:background="#D6740C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0">
+
+        <ImageView
+            android:id="@+id/mseptemberiw"
+            android:layout_width="@dimen/monthlearndrawablewidth"
+            android:layout_height="@dimen/monthlearndrawableheight"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.072"
+            app:srcCompat="@drawable/mseptember" />
+
+        <TextView
+            android:id="@+id/septembertextview"
+            android:layout_width="130dp"
+            android:layout_height="@dimen/monthlearntitleheight"
+            android:text="@string/SeptemberText"
+            android:textSize="26sp"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.411" />
+
+        <TextView
+            android:id="@+id/septemberinfotext"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:text="@string/septemberinfo"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.816" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/octoberlayout"
+        android:layout_width="@dimen/monthlearnlayoutwidth"
+        android:layout_height="@dimen/monthlearnlayoutheight"
+        android:background="#D84810"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0">
+
+        <ImageView
+            android:id="@+id/moctoberiw"
+            android:layout_width="@dimen/monthlearndrawablewidth"
+            android:layout_height="@dimen/monthlearndrawableheight"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.072"
+            app:srcCompat="@drawable/moctober" />
+
+        <TextView
+            android:id="@+id/octobertextview"
+            android:layout_width="95dp"
+            android:layout_height="@dimen/monthlearntitleheight"
+            android:text="@string/OctoberText"
+            android:textSize="26sp"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.411" />
+
+        <TextView
+            android:id="@+id/octoberinfotext"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:text="@string/octoberinfo"
+            android:textSize="18.2sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.816" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/novemberlayout"
+        android:layout_width="@dimen/monthlearnlayoutwidth"
+        android:layout_height="@dimen/monthlearnlayoutheight"
+        android:background="#DB32F8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1">
+
+        <ImageView
+            android:id="@+id/mnovemberiw"
+            android:layout_width="@dimen/monthlearndrawablewidth"
+            android:layout_height="@dimen/monthlearndrawableheight"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.072"
+            app:srcCompat="@drawable/mnovember" />
+
+        <TextView
+            android:id="@+id/novembertextview"
+            android:layout_width="120dp"
+            android:layout_height="@dimen/monthlearntitleheight"
+            android:text="@string/NovemberText"
+            android:textSize="26sp"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.411" />
+
+        <TextView
+            android:id="@+id/novemberinfotext"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:text="@string/novemberinfo"
+            android:textSize="18.2sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.816" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/decemberlayout"
+        android:layout_width="@dimen/monthlearnlayoutwidth"
+        android:layout_height="@dimen/monthlearnlayoutheight"
+        android:background="#8146F8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/mdecemberiw"
+            android:layout_width="@dimen/monthlearndrawablewidth"
+            android:layout_height="@dimen/monthlearndrawableheight"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.072"
+            app:srcCompat="@drawable/mdecember" />
+
+        <TextView
+            android:id="@+id/decembertextview"
+            android:layout_width="120dp"
+            android:layout_height="@dimen/monthlearntitleheight"
+            android:text="@string/DecemberText"
+            android:textSize="26sp"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.411" />
+
+        <TextView
+            android:id="@+id/decemberinfotext"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:text="@string/decemberinfo"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.816" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/monthback3"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#000000"
+        android:text="@string/back_button"
+        android:onClick="monthMain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/monthprevious2"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#000000"
+        android:text="@string/multlearnprevioustext"
+        android:textSize="14sp"
+        android:onClick="monthPrevious"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wordlearning">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/wordslearnwronglayout"
+        android:layout_width="@dimen/wordlearnlayoutwidth"
+        android:layout_height="@dimen/wordlearnlayoutheight"
+        android:background="#FB0606"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0">
+
+        <TextView
+            android:id="@+id/wordlearnwrongtitle"
+            android:layout_width="@dimen/wordlearntitlewidth"
+            android:layout_height="@dimen/wordlearntitleheight"
+            android:text="@string/wordslearnwrongtitle"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/wordlearntitlesize"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.022" />
+
+        <TextView
+            android:id="@+id/wordlearnwrongspells"
+            android:layout_width="@dimen/wordlearntextwidth"
+            android:layout_height="@dimen/wordlearntextheight"
+            android:text="@string/wordslearnworngs"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/wordlearntextsize"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.344" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/wordslearncorrectlayout"
+        android:layout_width="@dimen/wordlearnlayoutwidth"
+        android:layout_height="@dimen/wordlearnlayoutheight"
+        android:background="#76FF03"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0">
+
+        <TextView
+            android:id="@+id/wordslearncorrecttitle"
+            android:layout_width="@dimen/wordlearntitlewidtha"
+            android:layout_height="@dimen/wordlearntitleheight"
+            android:text="@string/wordslearncorrecttitle"
+            android:textColor="#000000"
+            android:textSize="@dimen/wordlearntitlesize"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.022" />
+
+        <TextView
+            android:id="@+id/wordlearncorrectspells"
+            android:layout_width="@dimen/wordlearntextwidth"
+            android:layout_height="@dimen/wordlearntextheight"
+            android:text="@string/wordslearncorrects"
+            android:textColor="#000000"
+            android:textSize="@dimen/wordlearntextsize"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.327" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

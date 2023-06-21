@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/minute_hand"
+        android:width="@dimen/clock1drawable_width"
+        android:height="@dimen/clock1drawable_height"></item>
+</layer-list>
